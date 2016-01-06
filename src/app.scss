@@ -1,5 +1,8 @@
+@import 'styles-config/colors.scss';
+
 body {
-    h2 {
-        color: blue;
-    }
+    margin: 0px;
+    padding: 0px;
+    background-color: $bodyBackground;
+    font-family: Arial;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import './titleBar.scss';
 
-console.log('Loading the TitleBar Component');
+console.log('Loading the TitleBar');
 
 let TitleBar = React.createClass({
     render: function() {
         return (
-            <div className="title-bar">
-                Hello, world! I am a Title Bar.
+            <div id="title-bar" className="title-bar-l">
+                <span className="title-bar-heading">Object Admin Panel - React and Webpack</span>
             </div>
         );
     }

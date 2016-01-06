@@ -1,5 +1,11 @@
 @import '../../styles-config/colors.scss';
 
-.title-bar {
-    color: $appRed;
+.title-bar-l {
+    background-color: $titleBackground;
+    color: $titleColor;
+    padding: 15px;
+}
+
+.title-bar-heading {
+    font-size: 28px;
 }

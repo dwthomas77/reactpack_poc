@@ -1,0 +1,9 @@
+@import '../../styles-config/colors.scss';
+
+.home-page-l {
+    min-width: 1024px;
+    max-width: 90%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: $appBackground;
+}

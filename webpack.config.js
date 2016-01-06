@@ -9,6 +9,13 @@ const sassLoaders = [
   'sass'
 ];
 
+const babelSettings = {
+    presets:[
+        'react',
+        'es2015'
+    ]
+};
+
 module.exports = {
     target: 'web',
     entry: {
@@ -31,13 +38,7 @@ module.exports = {
             {
                 test: /\.js?$/,
                 exclude: /node_modules/,
-                loader: 'babel',
-                query: {
-                    presets:[
-                        'react',
-                        'es2015'
-                    ]
-                }
+                loaders: ['babel?'+JSON.stringify(babelSettings)],
             },
             // Sass
             {
